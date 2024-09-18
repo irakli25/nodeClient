@@ -34,6 +34,7 @@ async function signup() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
     },
     body: JSON.stringify(registrationJSON),
   })
@@ -70,6 +71,7 @@ async function login() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
     },
     body: JSON.stringify(authJSON),
   })
