@@ -10,7 +10,7 @@ signupButton.addEventListener("click", signup)
 loginButton.addEventListener("click", login)
 closeButton.addEventListener("click", () => modal.close())
 
-const SERVER_URL = "https://node-server-mup4tod60-irakli25s-projects.vercel.app/api/auth"
+const SERVER_URL = "https://node-server-5ooiba87x-irakli25s-projects.vercel.app/api/auth"
 
 async function signup() {
   const email = emailInput.value
