@@ -34,7 +34,8 @@ async function signup() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "https://node-server-taupe-ten.vercel.app"
+      "Access-Control-Allow-Origin": "https://node-server-taupe-ten.vercel.app",
+      "credentials": "include"
     },
     body: JSON.stringify(registrationJSON),
   })
@@ -71,7 +72,8 @@ async function login() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "https://node-server-taupe-ten.vercel.app"
+      "Access-Control-Allow-Origin": "https://node-server-taupe-ten.vercel.app",
+      "credentials": "include"
     },
     body: JSON.stringify(authJSON),
   })
