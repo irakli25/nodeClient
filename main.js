@@ -33,10 +33,7 @@ async function signup() {
     credentials: "include",
     method: "POST",
     headers: {
-      "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "*",
-      "credentials": "include",
-      "Access-Control-Allow-Credentials": "true"
+      "Content-Type": "application/json"
     },
     body: JSON.stringify(registrationJSON),
   })
@@ -72,10 +69,7 @@ async function login() {
     credentials: "include",
     method: "POST",
     headers: {
-      "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "*",
-      "credentials": "include",
-      "Access-Control-Allow-Credentials": "true"
+      "Content-Type": "application/json"
     },
     body: JSON.stringify(authJSON),
   })
